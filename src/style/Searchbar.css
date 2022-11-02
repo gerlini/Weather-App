@@ -1,8 +1,7 @@
 .search-bar{
     display: flex;
-    margin-left: 620px;
     align-items: center;
-   
+    margin-left: 620px;
 }
 
 .boton-add{
@@ -30,3 +29,16 @@
     color: white;
     font-size: 15px;
   }
+
+  @media (max-width: 500px){
+    .search-bar{
+        margin-left:0px
+    }
+    .imputext{
+        height: 80px;
+        width: 200px;
+    }
+    .boton-add{
+        height: 86px;
+    }
+}

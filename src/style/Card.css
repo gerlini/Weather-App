@@ -24,7 +24,6 @@
  }
 }
 .boton-x{
-
   color: black;
   cursor:pointer;
   background-color: transparent;
@@ -40,10 +39,6 @@
 .boton-x:hover{
   filter: invert(100%);
 }
-
-
-
-
 .card-title{
   display: flex;
   justify-content: center;
@@ -83,4 +78,19 @@
 h4{
   font-size: 22px;
   
+}
+
+@media (max-width: 500px){
+  .contenedor-card{
+    padding: 20px;
+    border-radius: 0%;
+  }
+  .boton-x{
+    border-radius: 0%;
+    color: rgba(255, 255, 255, 0.767);
+    box-shadow: 0 3px 13px 1px rgba(151, 151, 151, 0.555);
+  }
+  .image{
+    border-radius: 0%;
+  }
 }

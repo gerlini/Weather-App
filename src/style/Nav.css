@@ -3,7 +3,6 @@
     justify-content:flex-start ;
     background-color: rgba(0, 0, 0, 0.253);
     box-shadow: 0 3px 13px 1px rgba(0, 0, 0, 0.295);
-    height: 100px;
     align-items: center;
     font-size:large;
     backdrop-filter: blur(4px);
@@ -12,10 +11,18 @@
   }
 .search{
   display: flex;
-  height: 100px;
   justify-content: center;
   align-items: center;
 }
 .img{
   margin-left: 20px;
 }
+
+@media (max-width: 500px) {
+	.nav-bar {
+	width: 100%;
+	}
+  .img{
+    margin-left: 10px;
+  }
+  }

@@ -7,5 +7,10 @@ body{
 	align-items: center;
 	background: url("./img/fondo2.jpg") no-repeat;
 	background-size: cover;
-	
 }
+@media (max-width: 500px) {
+	body {
+		background: fixed;
+	 	background-color: #181c30;
+	}
+  }
