@@ -1,0 +1,86 @@
+.contenedor-card{
+  width: 320px;
+  box-shadow: 0 3px 13px 1px rgba(0, 0, 0, 0.295);
+  flex-direction: column;
+  margin: 20px;
+  background-color: rgba(0, 0, 0, 0.253);
+  backdrop-filter: blur(7px);
+  border-radius: 15px;
+  font-size: 14px;
+  color:white;
+  animation: fadeIn 0.55s;
+}
+.contenedor-card:hover{                     
+  scale: 101%;          
+}
+
+@keyframes fadeIn{
+ from {
+
+   opacity: 0;
+ }
+ to {
+   opacity: 1;
+ }
+}
+.boton-x{
+
+  color: black;
+  cursor:pointer;
+  background-color: transparent;
+  width: 30px;
+  height: 33px;
+  border-color: transparent;
+  box-shadow: 0 3px 13px 1px rgba(0, 0, 0, 0.555);
+  margin-top: 16px;
+  margin-left: 270px;
+  font-size: medium;
+  border-radius: 11%;
+}
+.boton-x:hover{
+  filter: invert(100%);
+}
+
+
+
+
+.card-title{
+  display: flex;
+  justify-content: center;
+  color: rgba(255, 255, 255, 0.87);
+  text-decoration: none;
+}
+.card-title:hover{
+  text-decoration:underline;
+}
+.maxmin{
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 15px;
+  margin-left: 20px;
+  margin-top: 5px;
+}
+.MAX  , .MIN  {
+  width: 33%;
+  align-self: center;
+  margin-left: 45px;
+}
+.imgweather{
+  border-color: grey;
+  height: auto;
+  margin-left: 100px;
+  justify-content: center;
+  width: 120px;
+}
+
+.image{
+  height: 125px;
+  width: 125px;
+  background-color: rgba(255, 255, 255, 0.144);
+  box-shadow: 0 3px 13px 1px rgba(0, 0, 0, 0.534);
+  border-radius: 10%;
+}
+h4{
+  font-size: 22px;
+  
+}

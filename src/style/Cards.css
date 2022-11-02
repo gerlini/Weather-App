@@ -1,0 +1,34 @@
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: auto;
+  margin-top: 20px;
+  width: 1080px;
+  margin-left: 420px;
+}
+.carga{
+  flex-direction: column;
+width: 100%;
+background-color: transparent;
+height: 500px;
+display: flex; 
+justify-content: center;
+align-items: center;
+color: white;
+animation: fadeIn 0.5s;
+}
+@keyframes fadeIn{
+  from {
+ 
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+ }
+.imgloading{
+  width: 600px;
+}
+
+

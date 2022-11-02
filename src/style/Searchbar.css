@@ -1,0 +1,32 @@
+.search-bar{
+    display: flex;
+    margin-left: 620px;
+    align-items: center;
+   
+}
+
+.boton-add{
+    background-color: rgba(255, 255, 255, 0.356);
+    color:white;
+    border-color: transparent;
+    border-width: 2px;
+    width: auto;
+    box-shadow: 0 3px 13px 1px rgb(0 0 0/9%);
+    float: right;
+    height: 77px;
+    cursor:pointer;
+}
+
+.imputext{
+    border-color: transparent;
+    box-shadow: 0 3px 13px 1px rgb(0 0 0/9%);
+    height: 71px;
+    width: 360px;
+    background-color: rgba(255, 255, 255, 0.356);
+    color: white;
+    font-size: 22px;
+}
+::placeholder {
+    color: white;
+    font-size: 15px;
+  }
