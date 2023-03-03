@@ -14,4 +14,4 @@ Link a la app: https://wheater-app-pi.vercel.app/
  https://github.com/gerlini/Wheater-App.git 
 -npm install
 -npm start
- ```                           
+ ```
